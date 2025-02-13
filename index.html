@@ -4,77 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Database Systems</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            background-color: #2c3e50;
+            padding: 15px 0;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            width: 100%;
+            background-color: #34495e;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            border-bottom: 3px solid #1abc9c;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 8px 12px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #1abc9c;
+            border-radius: 5px;
+        }
+        main {
+            width: 70%;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            margin: 40px auto;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: left;
+        }
+        footer {
+            width: 100%;
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Database Systems</h1>
-    <p>This page provides an overview of the Database Systems course for Semester 1, 2025. All course material is organized in Modules.</p>
-
-    <h2>Course Overview</h2>
-    <p>Databases are at the core of most modern software applications...</p>
+    <header>
+        Database Systems 
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#announcements">Announcements</a></li>
+            <li><a href="#timetable">Timetable</a></li>
+            <li><a href="#grading">Grading</a></li>
+            <li><a href="#materials">Materials</a></li>
+            <li><a href="#tutorials">Tutorials</a></li>
+            <li><a href="#exercises">Exercises</a></li>
+        </ul>
+    </nav>
     
-    <h2>Staff</h2>
-    <ul>
-        <li><strong>Miao Qiao</strong><br>
-            Room: [Your Office Location]<br>
-            Email: [Your Email]<br>
-            Office Hour: [Your Office Hour Time]<br>
-            Zoom Meeting ID: [Your Zoom Link]</li>
-    </ul>
-
-    <h2>Class Representatives</h2>
-    <p>Class reps serve as a communication bridge between students and the teaching team.</p>
-
-    <h2>Meeting Times</h2>
-    <h3>Lecture Schedule (3 lectures per week):</h3>
-    <ul>
-        <li>Tuesday: 5:00 PM – 6:00 PM (Room: PLT1/303-G20)</li>
-        <li>Thursday: 2:00 PM – 3:00 PM (Room: MLT1/303-G23)</li>
-        <li>Friday: 2:00 PM – 3:00 PM (Room: MLT1/303-G23)</li>
-    </ul>
-
-    <h3>Lab Sessions</h3>
-    <ul>
-        <li>Monday: 8:00 AM – 9:00 AM (Room: 303S-G75)</li>
-        <li>Tuesday: 2:00 PM – 3:00 PM (Room: 303S-G75)</li>
-        <li>Friday: 4:00 PM – 5:00 PM (Online, Zoom ID: [Your Zoom ID])</li>
-    </ul>
-
-    <h2>Course Resources and Getting Help</h2>
-    <p>Course materials will be available in modules...</p>
-
-    <h2>Assessments and Pass Requirements</h2>
-    <table border="1">
-        <tr>
-            <th>Assessment Type</th>
-            <th>Percentage</th>
-            <th>Classification</th>
-        </tr>
-        <tr>
-            <td>Assignments</td>
-            <td>35%</td>
-            <td>Individual Coursework</td>
-        </tr>
-        <tr>
-            <td>Project</td>
-            <td>15%</td>
-            <td>Individual Coursework</td>
-        </tr>
-        <tr>
-            <td>Term Test</td>
-            <td>20%</td>
-            <td>Individual Test</td>
-        </tr>
-        <tr>
-            <td>Final Exam</td>
-            <td>30%</td>
-            <td>Individual Examination</td>
-        </tr>
-    </table>
-
-    <h2>Course Expectations</h2>
-    <p>Students are expected to engage with lectures, participate in labs...</p>
-
-    <h2>Getting Started</h2>
-    <p>Course materials and assignments are arranged in Modules.</p>
+    <main>
+        <section id="description">
+            <!-- <h2>Course Description</h2> -->
+            <p>Databases are at the core of most modern software applications. In this course you will learn the foundations of database systems, enabling you to build effective and efficient database applications. The course is divided into two parts: the first teaches you how to design and use a database application and the second covers transaction and looks in-depth at how database systems are built to work in the current changing environment. </p>
+        </section>
+        
+        <section id="announcements">
+            <h2>Announcements</h2>
+            <p>No new announcements at this time.</p>
+        </section>
+        
+        <section id="timetable">
+            <h2>Timetable & Venues</h2>
+            <p>Timetable details for the following courses are listed below.</p>
+            <ul>
+                <li><a href="softeng351.html">SOFTENG 351 Timetable</a></li>
+                <li><a href="compsci351.html">COMPSCI 351 Timetable</a></li>
+                <li><a href="compsci751.html">COMPSCI 751 Timetable</a></li>   
+            </ul>
+            
+            
+            
+        </section>
+        
+        <section id="grading">
+            <h2>Grading Scheme</h2>
+            <p>Details about grading will be posted soon.</p>
+        </section>
+        
+        <section id="materials">
+            <h2>Lecture Notes & Textbook</h2>
+            <p>Lecture slides and textbook details will be updated here.</p>
+        </section>
+        
+        <section id="tutorials">
+            <h2>Tutorials</h2>
+            <p>Tutorial sessions will be updated weekly.</p>
+        </section>
+        
+        <section id="exercises">
+            <h2>Exercises</h2>
+            <p>Practice exercises will be uploaded regularly.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Database Course. All rights reserved.</p>
+    </footer>
 </body>
 </html>
